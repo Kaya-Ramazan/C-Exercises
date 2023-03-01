@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Exercises", "C-Exercises\C-Exercises.csproj", "{B8740419-43F4-43AC-94A2-644083C8CFE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateSalary", "CalculateSalary\CalculateSalary.csproj", "{CBBB4055-863C-488A-8C41-71483EBD061D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateSquareRootNumber", "CalculateSquareRootNumber\CalculateSquareRootNumber.csproj", "{2B161DDD-138A-4A4F-BE1A-86A56C500B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFrequencyValue", "FindFrequencyValue\FindFrequencyValue.csproj", "{3B832E0D-0F9B-43BF-B8F6-D19166FC29DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{B8740419-43F4-43AC-94A2-644083C8CFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8740419-43F4-43AC-94A2-644083C8CFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8740419-43F4-43AC-94A2-644083C8CFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBB4055-863C-488A-8C41-71483EBD061D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBB4055-863C-488A-8C41-71483EBD061D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBB4055-863C-488A-8C41-71483EBD061D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBB4055-863C-488A-8C41-71483EBD061D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B161DDD-138A-4A4F-BE1A-86A56C500B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B161DDD-138A-4A4F-BE1A-86A56C500B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B161DDD-138A-4A4F-BE1A-86A56C500B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B161DDD-138A-4A4F-BE1A-86A56C500B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B832E0D-0F9B-43BF-B8F6-D19166FC29DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B832E0D-0F9B-43BF-B8F6-D19166FC29DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B832E0D-0F9B-43BF-B8F6-D19166FC29DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B832E0D-0F9B-43BF-B8F6-D19166FC29DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
