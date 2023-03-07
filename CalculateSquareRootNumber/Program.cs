@@ -13,7 +13,7 @@ namespace CalculateSquareRootNumber
             // Create a console application that prompts the user for a number and calculates the square root of the number.
             // Use a try-catch block to catch exceptions that might occur
             // when the user enters invalid data (such as a negative number).
-            // In the catch block, display a custom error message to the user and ask them to enter a new number.
+            // In the catch block, display a custom error message to the user and ask them to enter a new number...
 
             try
             {
@@ -26,9 +26,22 @@ namespace CalculateSquareRootNumber
                 Console.ReadLine();
 
             }
-            catch (Exception ex)
+            
+            catch(OverflowException) 
             {
-                Console.WriteLine(" You entered an invalid value. please try again :  ");
+                Console.WriteLine("You have exceeded the limits for Int32 !!! ");
+            }
+            catch(FormatException) 
+            {
+                Console.WriteLine(" You entered an invalid value. please try again : .");
+            }
+            catch (ArgumentException ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch(Exception)
+            {
+                Console.WriteLine(" Error !!!");
             }
             Console.ReadLine();
         }

@@ -25,7 +25,9 @@ namespace CalculateSalary
             Surname = emplySurname;
             ID = EmplyID;
             MonthlySalary = EmplymonthlySalary;
-           
+            
+
+
         }
 
       
@@ -62,10 +64,15 @@ namespace CalculateSalary
         {
             MonthlySalary = EmplymonthlySalary;
         }
-        public double YearlySalary() 
+        public double GetYearlySalary()
         {
             return MonthlySalary * 12;
         }
+        public void SetYearlySalary(double EmplyYearlySalry)
+        {
+            
+        }
+
 
 
 
