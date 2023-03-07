@@ -1,29 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
-
+using System.Linq;
 
 class Program 
 {
     static void Main(string[] args) 
     {
-        string readFilePath = @"C:\Users\s2200072\Downloads\ornek.txt";
-        string writeFilePath = @"C:\Users\s2200072\Downloads\ornek2.txt";
-        string[] dataArray = File.ReadAllLines(readFilePath);
 
-        Console.WriteLine("Read of the Data : ");
-        using(StreamWriter writer = new StreamWriter(writeFilePath))
+        //Create C# console application. Create a class named "Employee" with properties such as name,
+        //employee ID, and salary. Implement methods to calculate the yearly salary of an
+        //employee based on their monthly salary.
+       
+
+
+        string filePath = @"C:\demo\test1.txt"; // // Read names from the file and store in an array
+
+        List<string> lines = new List<string>();
+        lines = File.ReadAllLines(filePath).ToList();
+
+        foreach (string line in lines) 
         {
-            foreach (string data in dataArray) 
-            {
-                string upperCaseData = data.ToUpper();
-                Console.WriteLine(upperCaseData);
-                writer.WriteLine(upperCaseData);
-
-            
-            }
+            Console.WriteLine(line.ToUpper());
         }
 
-        Console.WriteLine("The program has ended. Press any key to exit.");
+        string outputPath = @"C:\demo\test2.txt";
+        File.WriteAllLines(outputPath, lines);
+
         Console.ReadLine();
     }
 

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Exercises", "C-Exercises\C-Exercises.csproj", "{B8740419-43F4-43AC-94A2-644083C8CFE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read and Write txt file", "C-Exercises\Read and Write txt file.csproj", "{B8740419-43F4-43AC-94A2-644083C8CFE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateSalary", "CalculateSalary\CalculateSalary.csproj", "{CBBB4055-863C-488A-8C41-71483EBD061D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateSquareRootNumber", "CalculateSquareRootNumber\CalculateSquareRootNumber.csproj", "{2B161DDD-138A-4A4F-BE1A-86A56C500B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFrequencyValue", "FindFrequencyValue\FindFrequencyValue.csproj", "{3B832E0D-0F9B-43BF-B8F6-D19166FC29DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadStoreinDictionary", "FindFrequencyValue\ReadStoreinDictionary.csproj", "{3B832E0D-0F9B-43BF-B8F6-D19166FC29DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

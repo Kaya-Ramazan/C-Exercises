@@ -10,6 +10,27 @@ namespace CalculateSquareRootNumber
     {
         static void Main(string[] args)
         {
+            // Create a console application that prompts the user for a number and calculates the square root of the number.
+            // Use a try-catch block to catch exceptions that might occur
+            // when the user enters invalid data (such as a negative number).
+            // In the catch block, display a custom error message to the user and ask them to enter a new number.
+
+            try
+            {
+                double number;
+
+                Console.Write(" Enter a number : ");
+                number = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine(" Your number´s square is : " + Math.Sqrt(number));
+                Console.ReadLine();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(" You entered an invalid value. please try again :  ");
+            }
+            Console.ReadLine();
         }
     }
 }
